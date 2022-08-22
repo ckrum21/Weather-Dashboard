@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+}
+
+header {
+    background-color: rgb(65, 32, 212);
+    color: white;
+    text-align: center;
+    font-size: 80px;
+}
+
+.searchContainer h1{
+    display: flex;
+    margin-right:auto ;
+    width: 25%;
+}
+
+.mainContainer {
+    border: 1px;
+    border-style: double;
+    border-color: black;
+    height: 350px;
+    width: 350px;
+    display: flex;
+    margin-left: auto;
+    width: 75%;
+}
+
+
+
+ul{
+    font-size: 25px;
+    list-style: none;
+    line-height: 200%;
+}
+
+.fiveDay{
+    height: 350px;
+    width: 350px;
+    display: flex;
+    margin-left: auto;
+    width: 75%;
+
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport"/>
+  <title>Weather Dashboard</title>
+  
+<link rel="stylesheet" href="./assets/css/style.css" />
+</head>
+
+<body>
+    <header>Weather Dashboard</header>
+
+  <div class="searchContainer">
+    <h1>Search For A City:</h1>
+ 
+<form class="form">
+      <input id="search-input"type="text">
+      <button class="btn">Search</button>
+    </form>
+   </div>
+  <div class="mainContainer">
+    
+    <ul>
+      <h1>City:<span class="city"></span></h1>
+      <li>Temp:<span class="temp"></span></li>
+      <li>Wind:<span class="wind"></span></li>
+      <li>Huminity:<span class="huminity"></span></li>
+      <li>UV Index:<span class="uv"></span></li>
+    </ul>
+  </div>
+
+  <br>
+  <br>
+
+  <div class="fiveDay">
+    <h1>5-Day Forecast:</h1>
+
+
+  </div>
+  <script src="https://code.jquery.com/jquery.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>
+  <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
