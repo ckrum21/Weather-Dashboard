@@ -143,7 +143,7 @@ function loadlastCity(){
     }
 
 }
-//Click Handlers
+
 $("#search-button").on("click",displayWeather);
 $(document).on("click",invokePastSearch);
 $(window).on("load",loadlastCity);
